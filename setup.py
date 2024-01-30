@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Topsis_Shivam_102116113",
-    version="1.0.0",
+    version="1.0.2",
     author="Shivam Dhiman",
     author_email="shivam4968@gmail.com",
     description="Calculates Topsis Score and Rank",
