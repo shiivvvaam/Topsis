@@ -1,16 +1,19 @@
 
 import setuptools
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 setuptools.setup(
     name="Topsis_Shivam_102116113",
     version="1.0.0",
     author="Shivam Dhiman",
     author_email="shivam4968@gmail.com",
-    description="It Calculates Topsis Score and Rank",
+    description="Calculates Topsis Score and Rank",
     long_description=long_description,
     long_description_content_type="text/markdown",
     license="MIT",
-    url="https://github.com/shiivvvaam/Topsis",
+    url="https://github.com/shiivvvaam/Topsis_Shivam_102116113.git",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
@@ -21,7 +24,7 @@ setuptools.setup(
     install_requires='pandas',
     entry_points={
         "console_scripts": [
-            "topsis=Topsis_Shivam_102116113.topsis:main",
+            "topsis=Topsis_Shivam_102116022.topsis:main",
         ]
     },
 )

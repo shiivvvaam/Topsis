@@ -2,10 +2,10 @@ import pandas as pd
 import os
 import sys
 
-name = "Topsis_Tewatia/Topsis_Tewatia"
-__version__ = "1.0.4"
-__author__ = 'Yash Kumar Tewatia'
-__credits__ = 'Thapar Institute of Engineering and Technology'
+name = "Topsis_Shivam_102116113/Topsis_Shivam_102116113"
+__version__ = "1.0.0"
+__author__ = 'Shivam Dhiman'
+
 
 
 def main():
